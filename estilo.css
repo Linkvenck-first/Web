@@ -1,0 +1,9 @@
+div{
+	color: #fff;
+}
+tr:nth-child(even) {
+	background: purple;
+}
+tr:nth-child(odd){
+	background: gray;
+}

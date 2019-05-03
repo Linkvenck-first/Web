@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+<head>
+	<title>Formularios</title>
+</head>
+<form method="get">
+<body>
+	<div id="contenedor">
+			<header>FORMULARIO</header>
+			<br>
+			<fieldset>
+				<legend>Registro de Usuario</legend>
+					<p>
+						<label for="txtNombre">Nombre de usuario:</label>
+						<input type="text" name="nombre" id="txtNombre" placeholder="Usuario" 
+						autocomplete="off" size="30">
+					</p>
+					<p>
+						<label for="txtCorreo">Correo electronico:</label>
+						<input type="email" name="correo" id="txtCorreo" placeholder="Escribe tu correo butita" 
+						autocomplete="off" size="30" required>
+				
+					</p>
+					<p>
+						<label for="txtContra">Contraseña:</label>
+						<input type="password" name="contra" id="txtContra" placeholder="Contraseña"
+						 size="30" required>
+					</p>
+			</fieldset>
+			<br>
+			<fieldset>
+				<legend>Datos Personales</legend>
+					<p>
+						<label>Sexo: </label>
+						<input type="radio" name="sexo" value="op1">Masculinod
+						<input type="radio" name="sexo" value="op2">Femenino
+					</p>
+					<p>
+						<label>Fecha de nacimiento: </label>
+						<input type="date" name="fecha">
+					</p>
+					<p>
+						<label>País: </label>
+						<input type="" list="mis_opciones">
+						<datalist id="mis_opciones">
+							<option value="México">
+							<option value="Inglaterra">
+							<option value="U.S.A"> 
+						</datalist>
+					</p>
+			</fieldset>
+			<br>
+			<fieldset>
+				<legend>Cuentame sobre ti</legend>
+					<p>
+						<label>Sobre ti: </label>
+						<textarea rows="10" cols="80"></textarea>
+					</p>
+					<p>
+						<label>Intereses: </label>
+						<input type="" list="mis_intereses">
+						<datalist id="mis_intereses">
+							<option value="Leer">
+							<option value="Jugar FutBall">
+							<option value="Jugar videojuegos">
+							<option value="Correr">
+						</datalist>
+					</p>
+					<p>
+						<label>Color preferido:</label>
+						<input type="color" name="color" value="#000000">
+					</p>
+					<p>
+						<label>¿Cual es su nivel de HTML?:</label>
+						<input type="range" name="" min="0" max="10">
+					</p>
+			</fieldset>
+			<br>
+			<fieldset>
+				<legend>Boletín</legend>
+					<p>
+						<label>¿Deseas suscribirte a nuestro boletín?: </label>
+						<input type="radio" name="boletín" value="op1">Si
+						<input type="radio" name="boletín" value="op2">No
+					</p>
+					<p>
+						<label>¿Cada cuanto días deseas recibir el boletín?: </label>
+						<input type="number" name="dias" min="1" max="30">
+					</p>
+					<p>
+						<label>¿Acepta los términos?: </label>
+						<input type="radio" name="terminos" value="op1">Si
+						<input type="radio" name="terminos" value="op2">No
+					</p>
+			</fieldset>
+			<p>
+				<input type="submit" value="Enviar">
+			</p>
+	</div>
+</body>
+</form>
+</html>

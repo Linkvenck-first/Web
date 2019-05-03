@@ -1,0 +1,29 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+body{
+	background: gray;
+	color: #fff;
+}
+/* Parte de la cabecera Nombre e imagen*/
+header{	
+	background: orange;
+	text-align: center;
+	font-size: 25px;
+}
+#contenedor{
+	width: 600px;
+	margin: auto;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+p{
+	margin-left: 7px;
+	margin-top: 7px;
+}
+legend{
+	margin-left: 10px;
+}
